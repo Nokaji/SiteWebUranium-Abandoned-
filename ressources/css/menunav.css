@@ -28,6 +28,6 @@
 		font-size: 10px;
 	}
 	.header-img{
-		background-image: url("../ressources/img/background.png");
+		background-image: url("ressources/img/background.png");
 	}
 }
