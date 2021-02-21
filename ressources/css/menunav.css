@@ -35,7 +35,9 @@
 }
 
 .header-img{
-		background-image: url("../img/background.png");
+	background-image: url("../img/background.png");
+	padding: 800px 25px;
+	background-repeat: repeat-x;
 }
 
 body, html{
