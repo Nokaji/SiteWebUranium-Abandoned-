@@ -27,8 +27,18 @@
 		width: 1000px;
 		font-size: 10px;
 	}
+
+	.img_banner{
+		width: 550px;
+		height: 250px;
+	}
 }
 
 .header-img{
 		background-image: url("../img/background.png");
+}
+
+body, html{
+	margin: 0;
+	padding: 0;
 }

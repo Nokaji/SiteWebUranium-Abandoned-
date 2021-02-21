@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="ressources/css/menunav.css">
+<link rel="stylesheet" type="text/css" href="../css/menunav.css">
 <div>
 	<nav class="menu-nav">
 		<div class="div-right">
@@ -17,5 +17,5 @@
 	</nav>
 	<div class="header-img">
 	</div>
-	<center><img class="img_banner" src="ressources/img/theme_logo.png"></center>
+	<center><img class="img_banner" src="../img/theme_logo.png"></center>
 </div>

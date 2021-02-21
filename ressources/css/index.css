@@ -1,18 +1,10 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
 body{
-	background-image: linear-gradient(to bottom, gray), url("https://cdn.discordapp.com/attachments/812812370102845460/813049272836292638/background.png");
+
 }
 
 
 
 @media (max-width: 1250px){
-	.img_banner{
-		width: 550px;
-		height: 250px;
-	}
+	
 
 }

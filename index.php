@@ -12,7 +12,6 @@
     <title>Home | UraniumV1-PvP-Faction</title>
 </head>
 <header>
-	<?= include "ressources/includes/menunav.php"?>
 </header>
 <body>
     
