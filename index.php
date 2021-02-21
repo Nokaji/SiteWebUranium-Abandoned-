@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<link rel="stylesheet" type="text/css" href="ressources/css/index.css">
 	<link rel="stylesheet" type="text/css" href="ressources/fontawesome/css/all.css">
