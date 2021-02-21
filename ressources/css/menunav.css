@@ -48,7 +48,7 @@ body{
 
 	.img_banner{
 		width: 110px;
-		height: 45px;
+		height: 85px;
 		background-position: center left;
 	}
 
@@ -76,7 +76,7 @@ body, html{
 	.img_banner{
 		position: relative;
 		width: 250px;
-		height: 50px;
+		height: 100px;
 		top: 25px;
 		right: -25px;
 	}
