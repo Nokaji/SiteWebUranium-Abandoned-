@@ -3,6 +3,7 @@
 	<div class="header-img">
 	<nav class="menu-nav">
 		<div class="div-right">
+			<i id="menu-bars" class="fas fa-bars btn_a"></i>
 			<ul>
 				<li class="btn_li"><a class="btn_a" href="">Accueil</a></li>
 				<li class="btn_li"><a class="btn_a" href="">Boutique</a></li>
@@ -18,6 +19,8 @@
 			</ul>
 		</div> -->
 	</nav>
-		<center><img class="img_banner" src="ressources/img/theme_logo.png"></center>
+		<center><a href=""><img class="img_banner" src="ressources/img/theme_logo.png"></center></a>
 	</div>
 </div>
+</div>
+<script type="text/javascript" src="ressources/js/connexion_pop_up.js"></script>
