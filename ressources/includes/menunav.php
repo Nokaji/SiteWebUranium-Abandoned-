@@ -15,5 +15,5 @@
 			</ul>
 		</div>
 	</nav>
-	<img class="img_banner" src="ressources/img/theme_logo.png">
+	<center><img class="img_banner" src="ressources/img/theme_logo.png"></center>
 </div>
