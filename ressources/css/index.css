@@ -9,13 +9,8 @@ body{
 
 @media (max-width: 1250px){
 	.img_banner{
-		width: 250px;
-		height: 100px;
+		width: 550px;
+		height: 250px;
 	}
 
-}
-
-.img_banner{
-	width: 1500px;
-	height: 700px;
 }
