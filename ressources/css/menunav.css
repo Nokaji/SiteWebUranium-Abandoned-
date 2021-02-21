@@ -13,11 +13,13 @@ body{
 .btn_button:hover{
 	background: none;
 	background-color: #00DD28;
+	cursor: pointer;
 }
 
 .btn_button:hover{
 	transition: 0.5s ease;
 	background-color: #00DD28;
+	cursor: pointer;
 }
 
 @media (max-width: 850px){
@@ -27,8 +29,11 @@ body{
 	}
 
 	.img_banner{
-		width: auto;
-		height: auto;
+		position: relative;
+		width: 200px;
+		height: 100px;
+		top: -25px;
+		right: auto;
 	}
 
 	.header-img{
@@ -54,14 +59,13 @@ body{
 		font-size: 20px;
 		position: relative;
 		top: -30px;
-		opacity: 0;
 	}
 
 	.btn_li{
 		list-style-type: none;
 		display: inline-block;
 		margin-left: 10px;
-		opacity: 0;
+		cursor: pointer;
 	}
 
 	.btn_button{
@@ -78,7 +82,10 @@ body{
 	    font-size: 15px;
 	    transition: all 0.5s ease;
 	    background-color: #00DD28;
-	    opacity: 0;
+	    cursor: pointer;
+	}
+	.menu{
+		visibility: hidden;
 	}
 }
 
@@ -95,11 +102,10 @@ body, html{
 	}
 	.img_banner{
 		position: relative;
-		width: 250px;
+		width: 200px;
 		height: 100px;
 		top: -25px;
 		right: auto;
-
 	}
 
 	.header-img{
@@ -116,14 +122,13 @@ body, html{
 		font-size: 20px;
 		position: relative;
 		top: -30px;
-		opacity: 0;
 	}
 
 	.btn_li{
 		list-style-type: none;
 		display: inline-block;
 		margin-left: 10px;
-		opacity: 0;
+		cursor: pointer;
 	}
 
 	.btn_button{
@@ -140,9 +145,12 @@ body, html{
 	    font-size: 15px;
 	    transition: all 0.5s ease;
 	    background-color: #00DD28;
-	    opacity: 0;
+	    cursor: pointer;
 	}
 
+	.menu{
+		visibility: hidden;
+	}
 }
 
 .header-img{
@@ -167,14 +175,15 @@ body, html{
 	font-size: 20px;
 	position: relative;
 	top: -30px;
-	visibility: initial;
+	visibility: visible;
 }
 
 .btn_li{
 	list-style-type: none;
 	display: inline-block;
 	margin-left: 10px;
-	visibility: initial;
+	visibility: visible;
+	cursor: pointer;
 }
 
 .btn_button{
@@ -191,5 +200,6 @@ body, html{
     font-size: 15px;
     transition: all 0.5s ease;
     background-color: #00DD28;
-    visibility: initial;
+    visibility: visible;
+    cursor: pointer;
 }
