@@ -4,8 +4,10 @@
 }
 
 body{
-	background-color: gray;
+	background-image: linear-gradient(to bottom, gray), url("https://cdn.discordapp.com/attachments/812812370102845460/813049272836292638/background.png");
 }
+
+
 
 @media (max-width: 1250px){
 	.img_banner{
