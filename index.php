@@ -22,3 +22,14 @@
 	</div>
 </body>
 </html>
+<?php
+$Rcon = new rcon();
+if($Rcon->connect('uranium.yvleis.fr', '25565', 'USER')) {
+    $Rcon->sendCommand('give JOUEUR 1 1');
+    $Rcon->sendCommand('give JOUEUR 1 1');
+} else {
+    echo "Erreur, impossible d\'envoyer la commande";
+}
+ 
+exit;
+?>
