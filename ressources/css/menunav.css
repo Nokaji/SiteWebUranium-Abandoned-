@@ -27,7 +27,8 @@
 		width: 1000px;
 		font-size: 10px;
 	}
-	.header-img{
-		background-image: url("ressources/img/background.png");
-	}
+}
+
+.header-img{
+		background-image: url("../img/background.png");
 }
