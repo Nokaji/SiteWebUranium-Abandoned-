@@ -21,7 +21,7 @@
 				</ul>
 			</div> -->
 		</nav>
-		<center><a><img class="img_banner" src="ressources/img/theme_logo.png"></a></center>
+		<center><a class="header_logo" href="/"></a></center>
 	</div>
 	<!-- <div class="popup_download" style="visibility: hidden;">
 		<h1>Télécharge Le Launcher</h1>
