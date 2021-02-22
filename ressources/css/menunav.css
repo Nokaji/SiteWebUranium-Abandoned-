@@ -21,7 +21,12 @@ body{
 	cursor: pointer;
 }
 
-@media (max-width: 360px){
+@media screen and (max-width: 360px){
+	body {
+		background-color: pink;
+	}
+
+
 	.menu-nav{
 		width: 1000px;
 		font-size: 10px;
