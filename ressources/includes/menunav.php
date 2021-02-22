@@ -4,7 +4,7 @@
 	<div class="header-img">
 		<nav class="menu-nav">
 			<div class="div-right">
-				<i style="cursor: pointer;" onclick="menuModul()" id="menu-bars" class="fas fa-bars btn_a mx-auto"></i>
+				<i style="cursor: pointer;" onclick="menuModul()" id="menu-bars" class="fas fa-bars btn_a"></i>
 				<ul id="menu">
 					<a class="btn_a" href="">Accueil</a></li>
 					<a class="btn_a" href="">Boutique</a>

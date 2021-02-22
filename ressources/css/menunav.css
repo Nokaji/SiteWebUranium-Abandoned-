@@ -45,9 +45,10 @@ body{
     }
 
 	#menu-bars{
+		position: relative;
 		opacity: 1;
 		top: 15px;
-		font-size: 50px;
+		left: 10%;
 	}
 
 	.btn_a{
@@ -90,7 +91,7 @@ body{
 
 @media (max-width: 800px){
 	.menu-nav{
-		width: 1000px;
+		width: 100%;
 		font-size: 10px;
 	}
 
@@ -113,6 +114,7 @@ body{
     }
 
 	#menu-bars{
+		position: relative;
 		opacity: 1;
 		top: 15px;
 		font-size: 50px;
