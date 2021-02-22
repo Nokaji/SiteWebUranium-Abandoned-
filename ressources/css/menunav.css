@@ -30,8 +30,7 @@ body{
 	.header-img{
 		background: url("../img/background.png") repeat-x;
 		background-size: 100% 100%;
-		padding: 10% 10%;
-		min-width: 325%;
+		max-width: 325%;
 		background-repeat: repeat-x;
 		opacity: 1;
     }
@@ -42,7 +41,7 @@ body{
 		width: 850px;
 		height: 450px;
 		top: 2px;
-		left: 15%;
+		left: 10%;
     }
 
 	#menu-bars{
@@ -110,7 +109,7 @@ body{
 		width: 850px;
 		height: 450px;
 		top: 2px;
-		left: 15%;
+		left: 20%;
     }
 
 	#menu-bars{
