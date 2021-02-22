@@ -1,0 +1,38 @@
+.menu-btn{
+	padding: 2%;
+}
+
+.header-img{
+	background: url("../img/background.png");
+}
+
+.btn_a{
+	color: white;
+	margin-right: 45px;
+	font-size: 20px;
+}
+
+.btn_a:hover{
+	background-color: transparent;
+	color: white;
+}
+
+.menu{
+	padding: 30px;
+}
+
+.btn_item{
+	color: white;
+	margin-right: 45px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.btn_item:hover{
+	background-color: transparent;
+	color: white;
+}
+
+.btn_drop{
+	color: grey;
+}
