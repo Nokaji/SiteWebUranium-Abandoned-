@@ -8,17 +8,13 @@
 	<link rel="icon" type="image/png" href="ressources/img/favicon.png"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <title>Home | UraniumV1-PvP-Faction</title>
 </head>
 <header>
 	<?php include "ressources/includes/menunav.php"?>
 </header>
 <body>
-	<!-- <div id="new">
-		
-	</div>
-	<div class="div-discord">
-		<iframe src="https://discordapp.com/widget?id=611947347706118175&amp;theme=dark" allowtransparency="true" frameborder="0"></iframe>
-	</div> -->
+	
 </body>
 </html>
