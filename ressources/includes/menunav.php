@@ -21,7 +21,7 @@
 				</ul>
 			</div> -->
 		</nav>
-		<center><a class="header_logo" href="/"></a></center>
+		<a class="header_logo" href="/"></a>
 	</div>
 	<!-- <div class="popup_download" style="visibility: hidden;">
 		<h1>Télécharge Le Launcher</h1>

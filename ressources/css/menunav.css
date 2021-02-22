@@ -99,7 +99,7 @@ body, html{
 		opacity: 1;
 	}
 	.header_logo{
-		background-image: url("../img/theme_logo.png");
+		background: url("../img/theme_logo.png") no-repeat center/100% auto;
 		position: relative;
 		width: 200px;
 		height: 100px;
