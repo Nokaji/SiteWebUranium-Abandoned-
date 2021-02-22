@@ -11,7 +11,7 @@
 					<a class="btn_a" href="">Forum</a>
 					<a class="btn_a" href="">Wiki</a>
 					<a class="btn_button btn_a">Télécharger</a>
-					<i style="visibility: hidden;" id="btnmenuclose" class="fas fa-times-circle"></i>
+					<i style="cursor: pointer;" onclick="closeMenuModul()" id="btnmenuclose" class="fas fa-times-circle"></i>
 				</ul>
 			</div>
 			<!-- <div class="div-left">
@@ -26,7 +26,7 @@
 	<div id="popup_download" style="visibility: hidden;">
 		<h1>Télécharge Le Launcher</h1>
 		<img src="">
-		<i onclick="popupCloseDownload()" class="fas fa-times-circle btncloseconnect"></i>
+		<i onclick="popupCloseDownload()" style="cursor: pointer;" class="fas fa-times-circle btncloseconnect"></i>
 	</div>
 </div>
 <script type="text/javascript" src="ressources/js/popupDownload.js"></script>

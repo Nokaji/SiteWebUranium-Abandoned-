@@ -17,20 +17,21 @@ body{
 }
 
 .btn_button:hover{
-	transition: 0.5s ease;
 	background-color: #00DD28;
 	cursor: pointer;
 }
 
-@media (max-width: 850px){
+@media (max-width: 360px){
 	.menu-nav{
 		width: 1000px;
 		font-size: 10px;
 	}
 
 	.header-img{
-		background: url("../img/background.png");
-		padding: 1% 10%;
+		background: url("../img/background.png") repeat-x;
+		background-size: 100% 100%;
+		padding: 10% 10%;
+		min-width: 325%;
 		background-repeat: repeat-x;
 		opacity: 1;
     }
@@ -51,6 +52,7 @@ body{
 	}
 
 	.btn_a{
+		margin-right: 14px;
 		text-decoration: none;
 		display: inline-block;
 		color: white;
@@ -61,19 +63,84 @@ body{
 
 	.btn_button{
 		background: linear-gradient(45deg,#00DD28 0%,#00DD28 55%,#059920 85%);
-	    background-position: 100% 0;
-	    background-size: 200% 100%;
+		background-position: 100% 100%;
+		background-size: 200% 100%;
 		padding: 0 25px;
-	    color: #fff;
-	    line-height: 51px;
-	    text-shadow: 0 2px 1px rgb(0 0 0 / 10%);
-	    text-transform: uppercase;
-	    border-radius: 30px;
-	    border: 0;
-	    font-size: 15px;
-	    transition: all 0.5s ease;
-	    background-color: #00DD28;
-	    cursor: pointer;
+		color: #fff;
+		line-height: 51px;
+		text-shadow: 0 2px 1px rgb(0 0 0 / 10%);
+		text-transform: uppercase;
+		border-radius: 30px;
+		border: 0;
+		font-size: 15px;
+		background-color: #00DD28;
+		cursor: pointer;
+	}
+	#menu{
+		visibility: hidden;
+		width: 25px;
+		height: 5px;
+	}
+
+	#btnmenuclose{
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 800px){
+	.menu-nav{
+		width: 1000px;
+		font-size: 10px;
+	}
+
+	.header-img{
+		background: url("../img/background.png") repeat-x;
+		background-size: 100% 100%;
+		padding: 10% 10%;
+		min-width: 325%;
+		background-repeat: repeat-x;
+		opacity: 1;
+    }
+
+    .header_logo{
+		background: url("../img/theme_logo.png") repeat-x;
+		position: relative;
+		width: 850px;
+		height: 450px;
+		top: 2px;
+		left: 15%;
+    }
+
+	#menu-bars{
+		opacity: 1;
+		top: 15px;
+		font-size: 50px;
+	}
+
+	.btn_a{
+		margin-right: 14px;
+		text-decoration: none;
+		display: inline-block;
+		color: white;
+		font-size: 20px;
+		position: relative;
+		top: -30px;
+	}
+
+	.btn_button{
+		background: linear-gradient(45deg,#00DD28 0%,#00DD28 55%,#059920 85%);
+		background-position: 100% 100%;
+		background-size: 200% 100%;
+		padding: 0 25px;
+		color: #fff;
+		line-height: 51px;
+		text-shadow: 0 2px 1px rgb(0 0 0 / 10%);
+		text-transform: uppercase;
+		border-radius: 30px;
+		border: 0;
+		font-size: 15px;
+		background-color: #00DD28;
+		cursor: pointer;
 	}
 	#menu{
 		visibility: hidden;
@@ -99,8 +166,9 @@ body, html{
 	}
 	.header-img{
 		background: url("../img/background.png");
-		padding: 1% 10%;
+		padding: 10% 10%;
 		background-repeat: repeat-x;
+		min-width: 190%;
 		opacity: 1;
     }
 
@@ -110,33 +178,33 @@ body, html{
 		width: 850px;
 		height: 450px;
 		top: 2px;
-		left: 30%;
+		left: 15%;
     }
 
 	.btn_a{
+		margin-right: 14px;
 		text-decoration: none;
-		display: block;
+		display: inline-block;
 		color: white;
-		font-size: 15px;
+		font-size: 20px;
 		position: relative;
 		top: -30px;
 	}
 
 	.btn_button{
 		background: linear-gradient(45deg,#00DD28 0%,#00DD28 55%,#059920 85%);
-	    background-position: 100% 0;
-	    background-size: 200% 100%;
+		background-position: 100% 100%;
+		background-size: 200% 100%;
 		padding: 0 25px;
-	    color: #fff;
-	    line-height: 51px;
-	    text-shadow: 0 2px 1px rgb(0 0 0 / 10%);
-	    text-transform: uppercase;
-	    border-radius: 30px;
-	    border: 0;
-	    font-size: 15px;
-	    transition: all 0.5s ease;
-	    background-color: #00DD28;
-	    cursor: pointer;
+		color: #fff;
+		line-height: 51px;
+		text-shadow: 0 2px 1px rgb(0 0 0 / 10%);
+		text-transform: uppercase;
+		border-radius: 30px;
+		border: 0;
+		font-size: 15px;
+		background-color: #00DD28;
+		cursor: pointer;
 	}
 
 	#menu{
@@ -144,13 +212,14 @@ body, html{
 		width: 25px;
 		height: 5px;
 		background-color: #141414;
+		backface-visibility: 100% 100%;
 	}
 
 	#btnmenuclose{
 		font-size: 50px;
 	}
 }
-@media (max-width: 12560){
+@media (max-width: 1940){
 	#menu-bars{
 		opacity: 0;
 	}
@@ -184,7 +253,7 @@ body, html{
 
 	.btn_button{
 		background: linear-gradient(45deg,#00DD28 0%,#00DD28 55%,#059920 85%);
-		background-position: 100% 0;
+		background-position: 100% 100%;
 		background-size: 200% 100%;
 		padding: 0 25px;
 		color: #fff;
@@ -194,18 +263,16 @@ body, html{
 		border-radius: 30px;
 		border: 0;
 		font-size: 15px;
-		transition: all 0.5s ease;
 		background-color: #00DD28;
-		visibility: visible;
 		cursor: pointer;
 	}
 
 	#menu{
 		visibility: visible;
+		right: 15%;
 	}
 
 	#btnmenuclose{
-		visibility: hidden;
+		opacity: 0;
 	}
 }
-
