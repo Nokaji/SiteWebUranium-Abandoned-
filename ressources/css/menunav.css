@@ -22,11 +22,6 @@ body{
 }
 
 @media screen and (max-width: 360px){
-	body {
-		background-color: pink;
-	}
-
-
 	.menu-nav{
 		width: 1000px;
 		font-size: 10px;
@@ -85,6 +80,8 @@ body{
 		visibility: hidden;
 		width: 25px;
 		height: 5px;
+		position: relative;
+		right: 10%;
 	}
 
 	#btnmenuclose{
