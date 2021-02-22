@@ -10,7 +10,7 @@
 					<a class="btn_a" href="">Boutique</a>
 					<a class="btn_a" href="">Forum</a>
 					<a class="btn_a" href="">Wiki</a>
-					<a onclick="popupDownload()" class="btn_button btn_a">Télécharger</a>
+					<a class="btn_button btn_a">Télécharger</a>
 					<i style="visibility: hidden;" id="btnmenuclose" class="fas fa-times-circle"></i>
 				</ul>
 			</div>
@@ -30,3 +30,4 @@
 	</div>
 </div>
 <script type="text/javascript" src="ressources/js/popupDownload.js"></script>
+<script type="text/javascript" src="ressources/js/menuModul.js"></script>
