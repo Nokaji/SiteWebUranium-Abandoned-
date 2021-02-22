@@ -34,13 +34,15 @@ body{
 		width: 200px;
 		height: 100px;
 		top: -35px;
-		right: auto;
+		right: -50px;
+		max-width: calc(100% - 40px);
 	}
+
 
 
 	.header-img{
 		background-image: url("../img/background.png");
-		padding: -50px auto;
+		padding: -50px 35px;
 		background-repeat: repeat-x;
 		opacity: 0.7;
 	}
@@ -77,6 +79,8 @@ body{
 	}
 	.menu{
 		visibility: hidden;
+		width: 25px;
+		height: 5px;
 	}
 }
 
@@ -92,18 +96,20 @@ body, html{
 		opacity: 1;
 	}
 	.header_logo{
-		background: url("../img/theme_logo.png") repeat-x;
+		background: url("../img/theme_logo.png");
+		background-repeat: no-repeat;
 		position: relative;
 		width: 200px;
 		height: 100px;
 		top: -35px;
-		right: auto;
+		right: -50px;
+		max-width: calc(100% - 40px);
 	}
 
 	.header-img{
 		background-image: url("../img/background.png");
-		padding: -50px auto;
-		background-repeat: repeat-x;
+		background-repeat: no-repeat;
+		padding: -50px 35px;
 		opacity: 0.7;
 	}
 
@@ -135,6 +141,8 @@ body, html{
 
 	.menu{
 		visibility: hidden;
+		width: 25px;
+		height: 5px;
 	}
 }
 
@@ -181,4 +189,8 @@ body, html{
 	height: 450px;
 	top: 2px;
 	left: 350px;
+}
+
+.menu{
+	visibility: visible;
 }
