@@ -4,14 +4,12 @@
 	<div class="header-img">
 		<nav class="menu-nav">
 			<div class="div-right">
-				<i style="cursor: pointer;" onclick="menuModul()" id="menu-bars" class="fas fa-bars btn_a"></i>
 				<ul id="menu">
 					<a class="btn_a" href="">Accueil</a></li>
 					<a class="btn_a" href="">Boutique</a>
 					<a class="btn_a" href="">Forum</a>
 					<a class="btn_a" href="">Wiki</a>
 					<a class="btn_button btn_a">Télécharger</a>
-					<i style="cursor: pointer;" onclick="closeMenuModul()" id="btnmenuclose" class="fas fa-times-circle"></i>
 				</ul>
 			</div>
 			<!-- <div class="div-left">
