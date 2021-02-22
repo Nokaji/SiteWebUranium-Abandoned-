@@ -10,15 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | UraniumV1-PvP-Faction</title>
 </head>
-<header>
-	<?= include "ressources/includes/menunav.php"?>
-</header>
 <body>
-	<div id="new">
+	<?php include "ressources/includes/menunav.php"?>
+	<!-- <div id="new">
 		
 	</div>
 	<div class="div-discord">
 		<iframe src="https://discordapp.com/widget?id=611947347706118175&amp;theme=dark" allowtransparency="true" frameborder="0"></iframe>
-	</div>
+	</div> -->
 </body>
 </html>
