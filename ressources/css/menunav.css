@@ -22,14 +22,14 @@ body{
 	cursor: pointer;
 }
 
-@media (max-width: 850px){
+@media screen and (max-width: 850px){
 	.menu-nav{
 		width: 1000px;
 		font-size: 10px;
 	}
 
 	.header_logo{
-		background-image: url("../img/theme_logo.png");
+		background: url("../img/theme_logo.png") repeat-x;
 		position: relative;
 		width: 200px;
 		height: 100px;
@@ -57,13 +57,6 @@ body{
 		font-size: 20px;
 		position: relative;
 		top: -30px;
-	}
-
-	.btn_li{
-		list-style-type: none;
-		display: inline-block;
-		margin-left: 10px;
-		cursor: pointer;
 	}
 
 	.btn_button{
@@ -94,12 +87,12 @@ body, html{
 	font-family: poppins,sans-serif;
 }
 
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
 	#menu-bars{
 		opacity: 1;
 	}
 	.header_logo{
-		background: url("../img/theme_logo.png") no-repeat center/100% auto;
+		background: url("../img/theme_logo.png") repeat-x;
 		position: relative;
 		width: 200px;
 		height: 100px;
@@ -121,13 +114,6 @@ body, html{
 		font-size: 20px;
 		position: relative;
 		top: -30px;
-	}
-
-	.btn_li{
-		list-style-type: none;
-		display: inline-block;
-		margin-left: 10px;
-		cursor: pointer;
 	}
 
 	.btn_button{
@@ -153,13 +139,14 @@ body, html{
 }
 
 .header-img{
-	background-image: url("../img/background.png");
-	padding: -50px auto;
+	background: url("../img/background.png");
+	padding: -50px 1000px;
 	background-repeat: repeat-x;
 	opacity: 1;
 }
 
 .btn_a{
+	margin-right: 14px;
 	text-decoration: none;
 	display: inline-block;
 	color: white;
@@ -167,14 +154,6 @@ body, html{
 	position: relative;
 	top: -30px;
 	visibility: visible;
-}
-
-.btn_li{
-	list-style-type: none;
-	display: inline-block;
-	margin-left: 10px;
-	visibility: visible;
-	cursor: pointer;
 }
 
 .btn_button{
@@ -196,10 +175,10 @@ body, html{
 }
 
 .header_logo{
-	background-image: url("../img/theme_logo.png");
+	background: url("../img/theme_logo.png") repeat-x;
 	position: relative;
 	width: 850px;
 	height: 450px;
-	top: -85px;
-	right: auto;
+	top: 2px;
+	left: 350px;
 }

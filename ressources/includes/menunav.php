@@ -6,11 +6,11 @@
 			<div class="div-right">
 				<i style="cursor: pointer;" onclick="menuModul()" id="menu-bars" class="fas fa-bars btn_a"></i>
 				<ul id="menu">
-					<li class="btn_li"><a class="btn_a" href="">Accueil</a></li>
-					<li class="btn_li"><a class="btn_a" href="">Boutique</a></li>
-					<li class="btn_li"><a class="btn_a" href="">Forum</a></li>
-					<li class="btn_li"><a class="btn_a" href="">Wiki</a></li>
-					<li class="btn_li"><a onclick="popupDownload()" class="btn_button btn_a">Télécharger</a></li>
+					<a class="btn_a" href="">Accueil</a></li>
+					<a class="btn_a" href="">Boutique</a>
+					<a class="btn_a" href="">Forum</a>
+					<a class="btn_a" href="">Wiki</a>
+					<a onclick="popupDownload()" class="btn_button btn_a">Télécharger</a>
 					<i style="visibility: hidden;" id="btnmenuclose" class="fas fa-times-circle"></i>
 				</ul>
 			</div>
@@ -21,12 +21,12 @@
 				</ul>
 			</div> -->
 		</nav>
-		<a class="header_logo" href="/"></a>
+		<li class="header_logo"></li>
 	</div>
-	<!-- <div class="popup_download" style="visibility: hidden;">
+	<div id="popup_download" style="visibility: hidden;">
 		<h1>Télécharge Le Launcher</h1>
 		<img src="">
 		<i onclick="popupCloseDownload()" class="fas fa-times-circle btncloseconnect"></i>
-	</div> -->
+	</div>
 </div>
 <script type="text/javascript" src="ressources/js/popupDownload.js"></script>
