@@ -2,28 +2,23 @@
 	padding: 2%;
 }
 
-.header-img{
-	background-color: white;
-}
-
 .btn_a{
 	margin-right: 15px;
 }
 
 .menu-bars{
 	padding: 30px;
-	box-shadow: 0px 1px 0px;
 }
 
 .btn_item{
-	color: #4a4a4a;
+	color: white;
 	margin-right: 45px;
 	padding-top: 10px;
 	cursor: pointer;
 }
 
 .btn_item:hover{
-	color: #3273dc;
+	color: white;;
 	background-color: transparent;
 }
 
@@ -31,14 +26,40 @@
 	color: #4a4a4a;
 }
 
-.header-background{
-	background: url("../img/background.png");
-	max-width: 100%;
-	height: auto;
-	padding-bottom: 35%;
+header{
+	background: url("../img/background.png") no-repeat bottom center/cover;
+	min-height: 625px;
 }
 
-.banner-logo{
-	position: relative;
-	top: -435px;
+.header-logo{
+	background: url("../img/banner.png") no-repeat bottom center/cover;
+}
+
+
+.navbar{
+	font-weight: 300;
+	position: absolute;
+	top: 0; right: 0; left: 0;
+}
+
+.nav-menu{
+	background: transparent;
+	font-weight: 300;
+	position: absolute;
+	top: 0; right: 0; left: 0;
+}
+
+.item{
+	color: white;
+	font-size: 20.5px;
+	cursor: pointer;
+	padding-right: 20px;
+}
+
+.item:hover{
+	color: white;
+}
+
+body{
+	background: #141414;
 }
