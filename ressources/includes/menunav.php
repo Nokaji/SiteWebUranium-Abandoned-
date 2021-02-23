@@ -1,7 +1,8 @@
 <link rel="stylesheet" type="text/css" href="ressources/css/menunav.css">
 <nav class="navbar nav-menu">
+	<i class="fas fa-bars bars-icon fa-5x"></i>
 	<div class="navbar-menu is-active menu-bars" id="navMenu">
-		<h1 class="title-menu" style="color: #00A810; visibility: hidden; position: absolute; top: 25px; right: 25px;">Menu</h1>
+		<h1 class="title-menu">Menu</h1>
 		<div class="navbar-start">
 			<a class="item">Accueil</a>
 			<a class="item">Forum</a>
