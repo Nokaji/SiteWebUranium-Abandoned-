@@ -32,9 +32,9 @@ header{
 }
 
 .header-logo{
-	background: url("../img/banner.png") no-repeat bottom center/cover;
+	position: relative;
+	top: 150px;
 }
-
 
 .navbar{
 	font-weight: 300;
@@ -54,6 +54,7 @@ header{
 	font-size: 20.5px;
 	cursor: pointer;
 	padding-right: 20px;
+	display: block;
 }
 
 .item:hover{
@@ -62,4 +63,32 @@ header{
 
 body{
 	background: #141414;
+}
+
+@media screen and (max-width: 1023px){
+	.navbar-menu {
+    	background-color: #333333;
+	}
+	.navbar-menu.is-active {
+    	background-color: #333333;
+    	height: 100%;
+	}
+
+	.item{
+		font-size: 27.5px;
+		padding-bottom: 10px;
+
+	}
+
+	.navbar-item{
+		color: white;
+	}
+
+	.menu-arrow{
+		color: white;
+	}
+
+	.btn_item{
+		font-size: 27.5px;
+	}
 }

@@ -1,3 +1,3 @@
 <div class="header-background overlay">
-	<a class="header-logo text-center"></a>
+	<center><img class="header-logo image" src="ressources/img/banner.png"></img></center>
 </div>

@@ -1,13 +1,9 @@
 <link rel="stylesheet" type="text/css" href="ressources/css/menunav.css">
-<nav class="navbar nav-menu">
+<nav class="navbar nav-menu is-active">
 	<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
+  		<span></span>
+	  	<span></span>
+	  	<span></span>
 	</a>
 	<div class="navbar-menu is-active menu-bars" id="navMenu">
 		<div class="navbar-start">
@@ -22,11 +18,12 @@
 					Profile <i class="fas fa-chevron-circle-down menu-arrow"></i>
 				</div>
 				<div class="navbar-dropdown bg-dark">
-					<a class="navbar-item">Connexion</a>
-					<a class="navbar-item">Inscription</a>
+					<a class="navbar-item" onclick="openConnexion()">Connexion</a>
+					<a class="navbar-item">S'Inscrire</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </nav>
+
 <script type="text/javascript" src="ressources/js/menu.js"></script>
