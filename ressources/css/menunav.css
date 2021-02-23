@@ -135,7 +135,7 @@ body{
 		position: absolute;
 	}
 	.drop-item{
-		color: gray;
+		color: white;
 	}
 
 	.navbar-menu{
@@ -148,7 +148,7 @@ body{
 		padding: 2px 5px;
 		margin-left: 850px;
 		padding: 15px;
-		border-radius: 15px;
+		border-radius: 55px;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -163,5 +163,9 @@ body{
 	.btn_item:hover{
 		color: #00A810;
 		background-color: rgba(250, 250, 250, 0.5);
+	}
+
+	.drop{
+		background-color: #333333;
 	}
 }

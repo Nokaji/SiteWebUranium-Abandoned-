@@ -13,7 +13,7 @@
 				<div class="btn_item btn_a">
 					Profile <i class="fas fa-chevron-circle-down menu-arrow"></i>
 				</div>
-				<div class="navbar-dropdown bg-dark">
+				<div class="navbar-dropdown bg-dark drop">
 					<a class="navbar-item item drop-item" onclick="openConnexion()">Connexion</a>
 					<a class="navbar-item item drop-item">S'Inscrire</a>
 				</div>

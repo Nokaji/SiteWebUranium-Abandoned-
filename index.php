@@ -14,5 +14,6 @@
 </header>
 <body>
 	<?php include "ressources/includes/connexion.php" ?>
+	<?php include "ressources/includes/base.php"?>
 </body>
 </html>
