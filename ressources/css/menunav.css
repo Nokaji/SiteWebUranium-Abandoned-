@@ -14,6 +14,7 @@
 	color: white;
 	/*margin-right: 45px;*/
 	padding-top: 2.8%;
+	margin-bottom: 15%;
 	cursor: pointer;
 	font-size: 20px;
 	padding: 6px;
@@ -142,12 +143,14 @@ body{
 	}
 
 	.btn-shop{
-		background: rgb(15,234,23);
 		background: linear-gradient(15deg, rgba(15,234,23,1) 0%, rgba(0,168,16,1) 100%);
 		background-size: 100% 100%;
 		padding: 2px 5px;
+		margin-left: 850px;
 		padding: 15px;
 		border-radius: 15px;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	.btn_item{

@@ -20,7 +20,7 @@
 			</div>
 		</div>
 		<div class="navbar-end">
-			<a class="item btn-shop">Boutique</a>
+			<a class="item btn-shop green">Boutique</a>
 		</div>
 	</div>
 </nav>
