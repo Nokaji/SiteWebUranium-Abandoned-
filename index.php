@@ -9,9 +9,7 @@
 </head>
 <header>
 	<?php include "ressources/includes/menunav.php"?>
-	
 </header>
 <body>
-
 </body>
 </html>

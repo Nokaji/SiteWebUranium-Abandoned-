@@ -30,3 +30,9 @@
 .menu-arrow{
 	color: #4a4a4a;
 }
+
+.header-background{
+	background: url("../img/background.png");
+	max-width: 100%;
+	max-height: 25%;
+}

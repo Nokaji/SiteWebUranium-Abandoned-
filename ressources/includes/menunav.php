@@ -25,5 +25,7 @@
 		</div>
 	</div>
 </nav>
-<center><img src="ressources/img/favicon.png" style="max-width: 10%; height: auto; top: -10px;"></center>
+<div class="header-background box">
+	<a class="header-logo"></a>
+</div>
 <script type="text/javascript" src="ressources/js/menu.js"></script>
