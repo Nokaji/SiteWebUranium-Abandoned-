@@ -28,4 +28,5 @@
 <div class="header-background box">
 	<a class="header-logo"></a>
 </div>
+<center><img class="banner-logo" src="ressources/img/banner.png"></center>
 <script type="text/javascript" src="ressources/js/menu.js"></script>
