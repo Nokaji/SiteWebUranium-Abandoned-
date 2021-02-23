@@ -35,7 +35,7 @@ header{
 
 .header-logo{
 	position: relative;
-	top: 150px;
+	top: 115px;
 }
 
 .navbar{
@@ -73,10 +73,12 @@ body{
     	min-height: 2250px;
     	margin-top: -150px;
     	padding-top: 20%;
-    	visibility: hidden;
+		visibility: hidden;
+		animation-direction: normal;
 	}
 	.navbar-menu.is-active {
-    	background-color: #333333;
+		background-color: #333333;
+		
 	}
 
 	.item{

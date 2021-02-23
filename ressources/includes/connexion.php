@@ -10,4 +10,5 @@
 		</div>
 	</form>
 </div>
+<link rel="stylesheet" type="text/css" href="ressources/css/connexion.css">
 <script type="text/javascript" src="ressources/js/popupConnexion.js"></script>

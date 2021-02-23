@@ -8,7 +8,7 @@
 			<a class="item">Accueil</a>
 			<a class="item">Forum</a>
 			<a class="item">Wiki</a>
-			<a class="item">Télécharger</a>
+			<a onclick="openDownload()" class="item">Télécharger</a>
 			<div class="navbar-item has-dropdown is-hoverable">
 				<div class="btn_item btn_a">
 					Profile <i class="fas fa-chevron-circle-down menu-arrow"></i>
