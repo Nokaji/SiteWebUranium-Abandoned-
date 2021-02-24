@@ -1,4 +1,4 @@
-#download{
+#inscription{
     visibility: hidden;
 	cursor: default;
     position: fixed;
@@ -29,12 +29,4 @@
 
 .iconclose:hover{
     color: white;
-}
-
-a.download{
-    color: white;
-}
-
-.btn-download{
-    display: inline;
 }

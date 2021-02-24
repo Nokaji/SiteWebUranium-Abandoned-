@@ -27,3 +27,7 @@
     box-shadow: none;
     text-transform: uppercase;
 }
+
+.iconclose:hover{
+    color: white;
+}

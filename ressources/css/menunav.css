@@ -12,7 +12,6 @@
 
 .btn_item{
 	color: white;
-	/*margin-right: 45px;*/
 	padding-top: 2.8%;
 	margin-bottom: 15%;
 	cursor: pointer;
@@ -64,7 +63,7 @@ header{
 }
 
 body{
-	background: #141414;
+	background-color: white;
 }
 
 @media screen and (max-width: 1023px){

@@ -5,7 +5,18 @@
 		<div class="field">
 			<div class="control">
 				<label style="color: white;" class="label left" for="pseudo">Pseudo Minecraft :</label>
-				<input id="pseudo" class="input" type="text" placeholder="Pseudo1234"></input>
+				<input id="pseudo" class="input" type="text" placeholder="Exemple : Pseudo1234"></input>
+			</div>
+			<div class="control">
+				<label style="color: white;" class="label left" for="email">Email :</label>
+				<input id="email" class="input" type="text" placeholder="Exemple : email@gmail.com"></input>
+			</div>
+			<div class="control">
+				<label style="color: white;" class="label left" for="password">Mot de Passe :</label>
+				<input id="password" class="input" type="text" placeholder="********************"></input>
+			</div><br />
+			<div class="control">
+				<button class="button is-primary">Se Connecter</button>
 			</div>
 		</div>
 	</form>
