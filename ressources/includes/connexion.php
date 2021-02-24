@@ -4,10 +4,6 @@
 	<form class="box" style="background: transparent;">
 		<div class="field">
 			<div class="control">
-				<label style="color: white;" class="label left" for="pseudo">Pseudo Minecraft :</label>
-				<input id="pseudo" class="input" type="text" placeholder="Exemple : Pseudo1234"></input>
-			</div>
-			<div class="control">
 				<label style="color: white;" class="label left" for="email">Email :</label>
 				<input id="email" class="input" type="text" placeholder="Exemple : email@gmail.com"></input>
 			</div>

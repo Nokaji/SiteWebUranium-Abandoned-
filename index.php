@@ -12,7 +12,6 @@
 	<?php include "ressources/includes/header.php" ?>
 </header>
 <body>
-	<?php include "ressources/includes/inscription.php" ?>
 	<?php include "ressources/includes/download.php" ?>
 	<?php include "ressources/includes/connexion.php" ?>
 	<?php include "ressources/includes/base.php"?>
