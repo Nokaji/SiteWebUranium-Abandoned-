@@ -1,1 +1,1 @@
-<?php $bdd = new PDO("mysql:host=82.64.86.72;dbname=espace_membre;charset=utf8", "siteweb_uranium", "twr9PRGCrH80FQEa"); ?>
+<?php $bdd = new PDO("mysql:host=127.0.0.1;dbname=siteweb;charset=utf8", "root", ""); ?>
