@@ -15,7 +15,7 @@
 				</div>
 				<div class="navbar-dropdown bg-dark drop">
 					<a class="navbar-item item drop-item" onclick="openConnexion()">Connexion</a>
-					<a class="navbar-item item drop-item" href="inscription.php">S'Inscrire</a>
+					<a class="navbar-item item drop-item" onclick="openInscription()">S'Inscrire</a>
 				</div>
 			</div>
 		</div>
