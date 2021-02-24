@@ -1,0 +1,33 @@
+#inscription{
+    visibility: hidden;
+	cursor: default;
+    position: fixed;
+    top: 15%;
+    left: 0;
+    right: 0;
+    background: #333336;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.2);
+    max-width: calc(100% - 30px);
+    margin: auto;
+    width: 663px;
+    z-index: 99999;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 5px 5px 5px #1D2222;
+}
+
+.iconclose{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    color: #ADADAD;
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+.iconclose:hover{
+    color: white;
+}
