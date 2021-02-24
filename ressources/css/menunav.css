@@ -27,16 +27,6 @@
 	color: #4a4a4a;
 }
 
-header{
-	background: url("../img/background.png") no-repeat bottom center/cover;
-	min-height: 625px;
-}
-
-.header-logo{
-	position: relative;
-	top: 115px;
-}
-
 .navbar{
 	font-weight: 300;
 	position: absolute;

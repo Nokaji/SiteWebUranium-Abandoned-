@@ -1,0 +1,10 @@
+.header-logo{
+	position: relative;
+	top: 75px;
+    max-width: 35%;
+}
+
+header{
+	background: url("../img/background.png") no-repeat bottom center/cover;
+	min-height: 400px;
+}
