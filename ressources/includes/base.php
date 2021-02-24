@@ -38,16 +38,14 @@ class minecraft_server
             $info = array(
                 'version'       => '1.3.2',
                 'motd'          => $data[0],
-                'players'       => intval($data[1]),
-                'max_players'   => intval($data[2]),
+                'max_players'   => intval($data[1]),
                 'ping'          => $ping
             );
         }else{
             $info = array(
                 'version'       => $data[0],
                 'motd'          => $data[1],
-                'players'       => intval($data[2]),
-                'max_players'   => intval($data[3]),
+                'max_players'   => intval($data[2]),
                 'ping'          => $ping
             );
         }
@@ -72,11 +70,11 @@ class minecraft_server
 		<p class="server-maintenance">
 			<?php
 			$server = new minecraft_server("uranium.yvleis.fr", 25565);
-			if (!$server->get_ping_info($info)){
-				include "ressources/includes/server/offline.php";
-			}else{
-				include "ressources/includes/server/online.php";
-			}
+                if (!$server->get_ping_info($info)){
+                    include "ressources/includes/server/offline.php";
+                }else{
+                    include "ressources/includes/server/online.php";
+                }
 			?>
 		</p>
 	</div>
