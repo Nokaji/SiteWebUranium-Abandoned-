@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" type="text/css" href="ressources/css/inscription.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | UraniumV1</title>
 	<meta property="og:image" content="ressources/img/favicon.png"/>
 	<link rel="icon" type="image/png" href="ressources/img/favicon.png"/>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="ressources/fontawesome/css/all.css">
-    <title>Inscription | UraniumV1</title>
 	<?php include "ressources/includes/menunav.php"?>
 </head>
 <header>
-<?php include "ressources/includes/header.php" ?>
+	<?php include "ressources/includes/header.php" ?>
 </header>
 <body>
-<?php include "ressources/includes/download.php" ?>
-<?php include "ressources/includes/connexion.php" ?>
-<?php include "ressources/includes/base.php"?>
-<div id="inscription">
-	<h1 class="title is-1" style="color: white;">Inscriptoin</h1>
+	<?php include "ressources/includes/download.php" ?>
+	<?php include "ressources/includes/connexion.php" ?>
+	<?php include "ressources/includes/base.php"?>
+	<div id="inscription">
+	<h1 class="title is-1" style="color: white;">Inscription</h1>
 	<span class="iconclose icon is-medium"><i onclick="closeInscription()" class="fas fa-times-circle"></i></span>
 	<form class="box" style="background: transparent;">
 		<div class="field">
@@ -42,6 +38,6 @@
 			</div>
 		</div>
 	</form>
-</div>
+</div>!
 </body>
 </html>
