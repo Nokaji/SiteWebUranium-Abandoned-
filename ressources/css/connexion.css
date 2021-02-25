@@ -1,33 +1,71 @@
-#connexion{
-    visibility: hidden;
-	cursor: default;
-    position: fixed;
+#inscription{
+    background-color: #202020;
+    position: relative;
+    left: 5%;
+    background-size: 0%;
+    width: 90%;
+    
+}
+
+.input-inscri{
+    width: 600px;
+}
+
+.retour{
+    width: 90%;
+    background-color: #202020;
+    border-radius: 5px;
+    position: relative;
+    top: -25px;
+    left: 5%;
+    height: 95px;
+}
+
+.retour-accueil{
+    margin: 1%;
+    color: #00A510;
+    position: relative;
     top: 15%;
-    left: 0;
-    right: 0;
-    background: #333336;
-    border-radius: 6px;
-    box-shadow: 0 6px 12px rgba(0,0,0,.2);
-    max-width: calc(100% - 30px);
-    margin: auto;
-    width: 663px;
-    z-index: 99999;
-    padding: 15px;
-    color: #fff;
-    text-align: center;
-    box-shadow: 5px 5px 5px #1D2222;
 }
 
-.iconclose{
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    cursor: pointer;
-    color: #ADADAD;
-    box-shadow: none;
-    text-transform: uppercase;
-}
-
-.iconclose:hover{
+.retour-accueil:hover{
     color: white;
+    text-decoration: underline;
+}
+
+.retour-p{
+    color: gray;
+    display: inline;
+    text-decoration: none;
+    position: relative;
+    top: 15%;
+}
+
+.label-perso{
+    padding-left: -20%;
+    font-size: 15px;
+}
+
+.title-perso{
+    padding-left: -20%;
+    position: relative;
+    left: 2.5%;
+    top: 5%;
+}
+
+.form-perso{
+    position: relative;
+    left: 25%;
+}
+
+@media screen and (max-width: 1023px){
+    .input-inscri{
+        height: 65px;
+        width: 85%;
+        font-size: 165%;
+    }
+
+    .label-perso{
+        font-size: 165%;
+    }
 }

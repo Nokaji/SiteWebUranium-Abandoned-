@@ -18,7 +18,7 @@
     position: relative;
     top: -25px;
     left: 5%;
-    height: 55px;
+    height: 95px;
 }
 
 .retour-accueil{
@@ -48,6 +48,9 @@
 
 .title-perso{
     padding-left: -20%;
+    position: relative;
+    left: 2.5%;
+    top: 5%;
 }
 
 .form-perso{
