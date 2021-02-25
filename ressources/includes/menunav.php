@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="<?php if($_GET=="/compte/"){echo "..";}?>ressources/css/menunav.css">
+<link rel="stylesheet" type="text/css" href="ressources/css/menunav.css">
 <nav class="navbar nav-menu">
 	<i onclick="openMenu()" id="openMenu" class="fas fa-bars bars-icon fa-5x"></i>
 	<i onclick="closeMenu()" id="closeMenu" class="fas fa-times x-icon fa-5x"></i>

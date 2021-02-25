@@ -1,5 +1,68 @@
 #inscription{
-    background-color: #333333;
-    margin: auto;
-    width: 663px;
+    background-color: #202020;
+    position: relative;
+    left: 5%;
+    background-size: 0%;
+    width: 90%;
+    
+}
+
+.input-inscri{
+    width: 600px;
+}
+
+.retour{
+    width: 90%;
+    background-color: #202020;
+    border-radius: 5px;
+    position: relative;
+    top: -25px;
+    left: 5%;
+    height: 55px;
+}
+
+.retour-accueil{
+    margin: 1%;
+    color: #00A510;
+    position: relative;
+    top: 15%;
+}
+
+.retour-accueil:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.retour-p{
+    color: gray;
+    display: inline;
+    text-decoration: none;
+    position: relative;
+    top: 15%;
+}
+
+.label-perso{
+    padding-left: -20%;
+    font-size: 15px;
+}
+
+.title-perso{
+    padding-left: -20%;
+}
+
+.form-perso{
+    position: relative;
+    left: 25%;
+}
+
+@media screen and (max-width: 1023px){
+    .input-inscri{
+        height: 65px;
+        width: 85%;
+        font-size: 165%;
+    }
+
+    .label-perso{
+        font-size: 165%;
+    }
 }

@@ -64,33 +64,37 @@ if(isset($_POST['forminscription'])) {
 </header>
 <body>
 	<?php include "ressources/includes/download.php" ?>
-    
+
+<div class="retour">
+	<a class="retour-accueil">Accueil</a><p class="retour-p">></p>
+	<h1 class="title is-1 title-perso" style="color: white;">Inscription</h1>
+</div>
+
 <div id="inscription" class="box">
-	<center><h1 class="title is-1" style="color: white;">Inscription</h1></center>
-	<form method="POST" action="" style="background: transparent;">
+	<form method="POST" action="" class="form-perso" style="background: transparent;">
 		<div class="field"">
 			<div class="control">
-				<center><label style="color: white;" class="label left">Pseudo Minecraft :</label>
-				<input name="pseudo" id="pseudo" class="input input-inscri" type="text" placeholder="Exemple : Pseudo1234" value="<?php if(isset($pseudo)) { echo $pseudo; } ?>"></input></center>
+				<label style="color: white;" class="label label-perso">Pseudo Minecraft :</label>
+				<input name="pseudo" id="pseudo" class="input input-inscri" type="text" placeholder="Exemple : Pseudo1234" value="<?php if(isset($pseudo)) { echo $pseudo; } ?>"></input>
 			</div>
 			<div class="control">
-				<center><label style="color: white;" class="label left">Email :</label>
-				<input name="email" id="email" class="input input-inscri" type="email" placeholder="Exemple : email@gmail.com" value="<?php if(isset($email)) { echo $email; } ?>"></input></center>
+				<label style="color: white;" class="label label-perso">Email :</label>
+				<input name="email" id="email" class="input input-inscri" type="email" placeholder="Exemple : email@gmail.com" value="<?php if(isset($email)) { echo $email; } ?>"></input>
 			</div>
 			<div class="control">
-				<center><label style="color: white;" class="label left">Email :</label>
-				<input name="mail2" id="mail2" class="input input-inscri" type="email" placeholder="Comfirmation de l'email !" value="<?php if(isset($mail2)) { echo $mail2; } ?>"></input></center>
+				<label style="color: white;" class="label label-perso">Email :</label>
+				<input name="mail2" id="mail2" class="input input-inscri" type="email" placeholder="Comfirmation de l'email !" value="<?php if(isset($mail2)) { echo $mail2; } ?>"></input>
 			</div>
 			<div class="control">
-				<center><label style="color: white;" class="label left">Mot de Passe :</label>
-				<input name="password" id="password" class="input input-inscri" type="password" placeholder="********************"></input></center>
+				<label style="color: white;" class="label label-perso">Mot de Passe :</label>
+				<input name="password" id="password" class="input input-inscri" type="password" placeholder="********************"></input>
 			</div>
 			<div class="control">
-				<center><label style="color: white;" class="label left">Comfirmation Mot de Passe :</label>
-				<input name="passwordc" id="passwordc" class="input input-inscri" type="password" placeholder="********************"></input></center>
+				<label style="color: white;" class="label label-perso">Comfirmation Mot de Passe :</label>
+				<input name="passwordc" id="passwordc" class="input input-inscri" type="password" placeholder="********************"></input>
 			</div><br />
 			<div class="control">
-				<center><input name="forminscription" type="submit" class="button is-primary" value="S'inscire"/></center>
+				<input name="forminscription" type="submit" class="button is-primary" value="S'inscire"/>
 				<?php
 				if(isset($erreur)) {
 					echo '<font color="red">'.$erreur."</font>";

@@ -54,7 +54,6 @@
 
 body{
 	background: #333333;
-	padding-bottom: 100%;
 }
 
 @media screen and (max-width: 1023px){
@@ -110,7 +109,7 @@ body{
 		visibility: hidden;
 	}
 	body{
-		padding-bottom: 25%;
+		padding-bottom: 130%;
 	}
 }
 @media screen and (min-width: 1024px){
@@ -162,5 +161,8 @@ body{
 
 	.drop{
 		background-color: #333333;
+	}
+	body{
+		padding-bottom: 25%;
 	}
 }
