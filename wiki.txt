@@ -1,0 +1,2 @@
+command fas fa-terminal
+mods fas fa-cogs
