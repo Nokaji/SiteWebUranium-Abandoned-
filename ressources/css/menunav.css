@@ -52,6 +52,10 @@
 	color: white;
 }
 
+.item-profile:hover{
+	background-color: transparent;
+}
+
 body{
 	background: #333333;
 }
@@ -67,7 +71,6 @@ body{
 	}
 	.navbar-menu.is-active {
 		background-color: #333333;
-		
 	}
 
 	.item{

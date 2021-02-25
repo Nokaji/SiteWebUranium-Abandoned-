@@ -9,23 +9,12 @@
 			<a class="item">Forum</a>
 			<a class="item">Wiki</a>
 			<a onclick="openDownload()" class="item">Télécharger</a>
-			<div class="navbar-item has-dropdown is-hoverable">
-				<div class="btn_item btn_a">
-					<?php if(isset($_SESSION['id'])){echo $_SESSION['pseudo'];
-					}
-					else{echo "Profile";
-					} ?><i class="fas fa-chevron-circle-down menu-arrow"></i>
-				</div>
-				<div class="navbar-dropdown bg-dark drop">
-					<?php
-					if(isset($_SESSION['id'])){
-						include "ressources/includes/comptes/connect.php";
-					}else{
-						include "ressources/includes/comptes/noconnect.php";
-					}
-					?>
-				</div>
-			</div>
+			<a class="item item-profile"><?php if(isset($_SESSION['id'])){
+				include "ressources/includes/comptes/connect.php";
+			}else{
+				include "ressources/includes/comptes/noconnect.php";
+			}
+			?></a>
 		</div>
 		<div class="navbar-end">
 			<a class="item btn-shop green">Boutique</a>

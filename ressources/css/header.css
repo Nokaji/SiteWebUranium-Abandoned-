@@ -8,3 +8,12 @@ header{
 	background: url("../img/background.png") no-repeat bottom center/cover;
 	min-height: 585px;
 }
+
+@media screen and (max-width: 1023px){
+	.header-logo{
+		position: relative;
+		top: 85px;
+		max-width: 75%;
+		height: 25%;
+	}
+}
