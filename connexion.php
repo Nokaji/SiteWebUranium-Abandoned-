@@ -35,6 +35,10 @@ if(isset($_POST['formconnexion']))
       $erreur = "Tous les champs doivent être complétés !";
    }
 }
+
+if(isset($_SESSION['id'])){
+	header("Location: index");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,7 +75,7 @@ if(isset($_POST['formconnexion']))
 				<label style="color: white;" class="label left">Mot de Passe :</label>
 				<input id="password" class="input input-inscri" type="password" name="password" placeholder="********************"></input>
 			</div><br />
-			<input type="checkbox" name="rememberme" id="remembercheckbox" /><label for="remembercheckbox">  Se souvenir de moi</label>
+			<input type="checkbox" name="rememberme" id="remembercheckbox" class="checkbox"/><label for="remembercheckbox" class="left">  Se souvenir de moi</label>
             <br /><br />
 			<div class="control">
 				<input type="submit" name="formconnexion" class="button is-primary" value="Se Connecter"></input>

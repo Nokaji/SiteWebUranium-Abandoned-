@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include "ressources/database.php";
  
 if(isset($_POST['forminscription'])) {
@@ -46,6 +48,10 @@ if(isset($_POST['forminscription'])) {
    } else {
       $erreur = "Tous les champs doivent être complétés !";
    }
+}
+
+if(isset($_SESSION['id'])){
+	header("Location: index");
 }
 ?>
 <!DOCTYPE html>

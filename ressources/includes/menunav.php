@@ -11,7 +11,7 @@
 			<a onclick="openDownload()" class="item">Télécharger</a>
 			<div class="navbar-item has-dropdown is-hoverable">
 				<div class="btn_item btn_a">
-					<?php if(isset($_SESSION)){echo $_SESSION['pseudo'];
+					<?php if(isset($_SESSION['id'])){echo $_SESSION['pseudo'];
 					}
 					else{echo "Profile";
 					} ?><i class="fas fa-chevron-circle-down menu-arrow"></i>
