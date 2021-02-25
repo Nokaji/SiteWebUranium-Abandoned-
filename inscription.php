@@ -82,7 +82,7 @@ if(isset($_POST['forminscription'])) {
 				<input name="email" id="email" class="input input-inscri" type="email" placeholder="Exemple : email@gmail.com" value="<?php if(isset($email)) { echo $email; } ?>"></input>
 			</div>
 			<div class="control">
-				<label style="color: white;" class="label label-perso">Email :</label>
+				<label style="color: white;" class="label label-perso">Comfirmation de l'Email :</label>
 				<input name="mail2" id="mail2" class="input input-inscri" type="email" placeholder="Comfirmation de l'email !" value="<?php if(isset($mail2)) { echo $mail2; } ?>"></input>
 			</div>
 			<div class="control">

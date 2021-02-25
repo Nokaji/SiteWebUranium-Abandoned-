@@ -11,11 +11,19 @@
 			<a onclick="openDownload()" class="item">Télécharger</a>
 			<div class="navbar-item has-dropdown is-hoverable">
 				<div class="btn_item btn_a">
-					Profile <i class="fas fa-chevron-circle-down menu-arrow"></i>
+					<?php if(isset($_SESSION)){echo $_SESSION['pseudo'];
+					}
+					else{echo "Profile";
+					} ?><i class="fas fa-chevron-circle-down menu-arrow"></i>
 				</div>
 				<div class="navbar-dropdown bg-dark drop">
-					<a class="navbar-item item drop-item" href="connexion">Connexion</a>
-					<a class="navbar-item item drop-item" href="inscription">S'Inscrire</a>
+					<?php
+					if(isset($_SESSION['id'])){
+						include "ressources/includes/comptes/connect.php";
+					}else{
+						include "ressources/includes/comptes/noconnect.php";
+					}
+					?>
 				</div>
 			</div>
 		</div>
