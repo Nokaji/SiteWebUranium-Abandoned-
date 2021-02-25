@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="<?php if($_GET=="/compte/"){echo ".."}?>ressources/css/menunav.css">
+<link rel="stylesheet" type="text/css" href="<?php if($_GET=="/compte/"){echo "..";}?>ressources/css/menunav.css">
 <nav class="navbar nav-menu">
 	<i onclick="openMenu()" id="openMenu" class="fas fa-bars bars-icon fa-5x"></i>
 	<i onclick="closeMenu()" id="closeMenu" class="fas fa-times x-icon fa-5x"></i>
@@ -14,8 +14,8 @@
 					Profile <i class="fas fa-chevron-circle-down menu-arrow"></i>
 				</div>
 				<div class="navbar-dropdown bg-dark drop">
-					<a class="navbar-item item drop-item" href="compte/connexion">Connexion</a>
-					<a class="navbar-item item drop-item" href="compte/inscription">S'Inscrire</a>
+					<a class="navbar-item item drop-item" href="connexion">Connexion</a>
+					<a class="navbar-item item drop-item" href="inscription">S'Inscrire</a>
 				</div>
 			</div>
 		</div>

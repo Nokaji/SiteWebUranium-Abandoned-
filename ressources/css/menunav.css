@@ -54,6 +54,7 @@
 
 body{
 	background: #333333;
+	padding-bottom: 100%;
 }
 
 @media screen and (max-width: 1023px){
@@ -109,7 +110,7 @@ body{
 		visibility: hidden;
 	}
 	body{
-		padding-bottom: 250%;
+		padding-bottom: 25%;
 	}
 }
 @media screen and (min-width: 1024px){

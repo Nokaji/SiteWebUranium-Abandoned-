@@ -1,5 +1,5 @@
 <?php
-include "../ressources/database.php";
+include "ressources/database.php";
  
 if(isset($_POST['forminscription'])) {
    $pseudo = htmlspecialchars($_POST['pseudo']);
@@ -52,22 +52,22 @@ if(isset($_POST['forminscription'])) {
 <html>
 <head>
 	<title>Inscription | UraniumV1</title>
-	<meta property="og:image" content="../ressources/img/favicon.png"/>
-	<link rel="icon" type="image/png" href="../ressources/img/favicon.png"/>
+	<meta property="og:image" content="ressources/img/favicon.png"/>
+	<link rel="icon" type="image/png" href="ressources/img/favicon.png"/>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-	<link rel="stylesheet" type="text/css" href="../ressources/fontawesome/css/all.css">
-	<link rel="stylesheet" type="text/css" href="../ressources/css/inscription.css">
-	<?php include "../ressources/includes/menunav.php"?>
+	<link rel="stylesheet" type="text/css" href="ressources/fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="ressources/css/inscription.css">
+	<?php include "ressources/includes/menunav.php"?>
 </head>
 <header>
-	<?php include "../ressources/includes/header2.php" ?>
+	<?php include "ressources/includes/header2.php" ?>
 </header>
 <body>
-	<?php include "../ressources/includes/download.php" ?>
+	<?php include "ressources/includes/download.php" ?>
     
 <div id="inscription" class="box">
 	<center><h1 class="title is-1" style="color: white;">Inscription</h1></center>
-	<form method="POST" action="" class="box" style="background: transparent;">
+	<form method="POST" action="" style="background: transparent;">
 		<div class="field"">
 			<div class="control">
 				<center><label style="color: white;" class="label left">Pseudo Minecraft :</label>
