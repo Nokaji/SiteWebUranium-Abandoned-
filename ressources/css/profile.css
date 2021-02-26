@@ -1,0 +1,35 @@
+.retour{
+    width: 90%;
+    background-color: #202020;
+    border-radius: 5px;
+    position: relative;
+    top: -25px;
+    left: 5%;
+    height: 120px;
+}
+
+.retour-accueil{
+    margin: 1%;
+    color: #00A510;
+    position: relative;
+    top: 15%;
+}
+
+.retour-accueil:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.retour-p{
+    color: gray;
+    display: inline;
+    text-decoration: none;
+    position: relative;
+    top: 15%;
+}
+.title-perso{
+    padding-left: -20%;
+    position: relative;
+    left: 2.5%;
+    top: 25%;
+}

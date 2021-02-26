@@ -17,8 +17,7 @@ if(isset($_SESSION['id'])){
 	<link rel="icon" type="image/png" href="ressources/img/favicon.png"/>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="ressources/fontawesome/css/all.css">
-	<meta name="description" content="Uranium Serveur PvP Faction Minecraft grace à ces mods et plugins exclusifs">
-	<meta name="og:title" property="og:title" content="Uranium PvP - Faction Minecraft">
+    <link rel="stylesheet" type="text/css" href="ressources/css/profile.css">
     <title><?php echo $_SESSION['pseudo'];?> | UraniumV1</title>
     <?php include "ressources/includes/menunav.php" ?>
 </head>
