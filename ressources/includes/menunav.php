@@ -7,17 +7,12 @@
 		<div class="navbar-start">
 			<a class="item" href="index">Accueil</a>
 			<a class="item">Forum</a>
+			<a class="item">Boutique</a>
 			<a class="item">Wiki</a>
 			<a onclick="openDownload()" class="item">Télécharger</a>
-			<a class="item item-profile"><?php if(isset($_SESSION['id'])){
-				include "ressources/includes/comptes/connect.php";
-			}else{
-				include "ressources/includes/comptes/noconnect.php";
-			}
-			?></a>
+			<?php if(isset($_SESSION['id'])){include "ressources/includes/comptes/connect.php";}else{include "ressources/includes/comptes/noconnect.php";}?>
 		</div>
 		<div class="navbar-end">
-			<a class="item btn-shop green">Boutique</a>
 		</div>
 	</div>
 </nav>

@@ -1,2 +1,2 @@
-<a class="navbar-item item drop-item" href="connexion">Connexion</a>
-<a class="navbar-item item drop-item" href="inscription">S'Inscrire</a>
+<a class="item item-profile" href="connexion">Connexion</a>
+<a class="item item-profile" href="inscription">S'Inscrire</a>

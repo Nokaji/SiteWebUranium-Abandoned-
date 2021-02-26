@@ -1,0 +1,34 @@
+#profile{
+    background-color: #333333;
+    min-width: 55%;
+    height: 250%;
+    visibility: hidden;
+    box-shadow: gray 0px -10px 0px;
+}
+
+.link-profile{
+    color: rgba(255,255,255,.8);
+    display: block;
+    position: relative;
+    left: 1%;
+    font-size: 20px;
+    top: 20%;
+}
+
+.link-profile:hover{
+    box-shadow: gray -3px 0px 0px;
+}
+
+.iconclose-profile{
+    cursor: pointer;
+    color: #ADADAD;
+    box-shadow: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 88%;
+}
+
+.iconclose-profile:hover{
+    color: white;
+    cursor: pointer;
+}

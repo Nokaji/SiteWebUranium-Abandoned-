@@ -45,15 +45,11 @@
 	font-size: 20.5px;
 	cursor: pointer;
 	padding-right: 20px;
-	display: block;
+	display: inline;
 }
 
 .item:hover{
 	color: white;
-}
-
-.item-profile:hover{
-	background-color: transparent;
 }
 
 body{
@@ -137,17 +133,6 @@ body{
 
 	.navbar-menu{
 		visibility: visible;
-	}
-
-	.btn-shop{
-		background: linear-gradient(15deg, rgba(15,234,23,1) 0%, rgba(0,168,16,1) 100%);
-		background-size: 100% 100%;
-		padding: 2px 5px;
-		margin-left: 850px;
-		padding: 15px;
-		border-radius: 55px;
-		padding-left: 5%;
-		padding-right: 5%;
 	}
 
 	.btn_item{

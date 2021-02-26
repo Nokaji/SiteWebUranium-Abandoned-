@@ -20,7 +20,7 @@ if(isset($_SESSION['id'])){
     <?php include "ressources/includes/header2.php" ?>
 </header>
 <body>
-    <?php include "ressources/"
+    <?php include "ressources/includes/base.php" ?>
     <?php 
     echo $_SESSION['id'];
     echo $_SESSION['pseudo'];
