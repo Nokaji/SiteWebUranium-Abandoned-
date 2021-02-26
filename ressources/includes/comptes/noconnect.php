@@ -1,2 +1,2 @@
-<a class="item item-profile" href="connexion">Connexion</a>
-<a class="item item-profile" href="inscription">S'Inscrire</a>
+<a href="connexion" class="item">Connexion</a>
+<a href="inscription" class="item">Inscription</a>

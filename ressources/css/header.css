@@ -12,7 +12,7 @@ header{
 @media screen and (max-width: 1023px){
 	.header-logo{
 		position: relative;
-		top: 85px;
+		top: 50px;
 		max-width: 75%;
 		height: 25%;
 	}

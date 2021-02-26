@@ -13,6 +13,12 @@ if(isset($_SESSION['id'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:image" content="ressources/img/favicon.png"/>
+	<link rel="icon" type="image/png" href="ressources/img/favicon.png"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="ressources/fontawesome/css/all.css">
+	<meta name="description" content="Uranium Serveur PvP Faction Minecraft grace à ces mods et plugins exclusifs">
+	<meta name="og:title" property="og:title" content="Uranium PvP - Faction Minecraft">
     <title><?php echo $_SESSION['pseudo'];?> | UraniumV1</title>
     <?php include "ressources/includes/menunav.php" ?>
 </head>
@@ -20,11 +26,10 @@ if(isset($_SESSION['id'])){
     <?php include "ressources/includes/header2.php" ?>
 </header>
 <body>
-    <?php include "ressources/includes/base.php" ?>
-    <?php 
-    echo $_SESSION['id'];
-    echo $_SESSION['pseudo'];
-    echo $_SESSION['mail'];
-    ?>
+    <?php include "ressources/includes/download.php" ?>
+    <div class="retour">
+        <a class="retour-accueil">Accueil</a><p class="retour-p">></p>
+        <h1 class="title is-1 title-perso" style="color: white;">Votre Compte</h1>
+    </div>
 </body>
 </html>
