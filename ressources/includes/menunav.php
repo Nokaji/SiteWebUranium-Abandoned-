@@ -10,7 +10,6 @@
 			<a class="item">Boutique</a>
 			<a class="item">Wiki</a>
 			<a onclick="openDownload()" class="item">Télécharger</a>
-			<?php if(isset($_SESSION['id'])){include "ressources/includes/comptes/connect.php";}else{include "ressources/includes/comptes/noconnect.php";}?>
 		</div>
 		<div class="navbar-end">
 		</div>

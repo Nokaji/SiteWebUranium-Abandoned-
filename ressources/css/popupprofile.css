@@ -1,9 +1,12 @@
 #profile{
     background-color: #333333;
-    min-width: 55%;
-    height: 250%;
+    width: 20%;
+    height: 45%;
     visibility: hidden;
     box-shadow: gray 0px -10px 0px;
+    position: relative;
+    bottom: 450px;
+    left: 70%;
 }
 
 .link-profile{
@@ -31,4 +34,18 @@
 .iconclose-profile:hover{
     color: white;
     cursor: pointer;
+}
+
+.profile-first-link{
+    position: relative;
+    bottom: 315px;
+    left: 70%;
+    background-color: rgba(250, 250, 250, .35);
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.profile-first-link:hover{
+    transition: 0.35s ease;
+    background-color: rgba(250, 250, 250, .5);
 }
