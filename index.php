@@ -19,7 +19,6 @@ session_start();
 <body>
 	<?php include "ressources/includes/download.php" ?>
 	<?php include "ressources/includes/base.php"?>
-	<?php include "ressources/includes/comptes.php" ?>
 </body>
 </html>
 

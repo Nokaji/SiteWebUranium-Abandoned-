@@ -23,6 +23,8 @@ if(isset($_POST['formconnexion']))
          $_SESSION['id'] = $userinfo['id'];
          $_SESSION['pseudo'] = $userinfo['pseudo'];
          $_SESSION['mail'] = $userinfo['mail'];
+		 $_SESSION['site'] = $userinfo['site'];
+		 $_SESSION['faction'] = $userinfo['faction'];
          header("Location: index.php");
       }
       else

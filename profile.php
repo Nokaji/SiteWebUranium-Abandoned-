@@ -26,9 +26,10 @@ if(isset($_SESSION['id'])){
 </header>
 <body>
     <?php include "ressources/includes/download.php" ?>
+    <?php include "ressources/includes/profile.php" ?>
     <div class="retour">
         <a class="retour-accueil">Accueil</a><p class="retour-p">></p>
-        <h1 class="title is-1 title-perso" style="color: white;">Votre Compte</h1>
+        <h1 class="title is-1 title-perso" style="color: white;">Détailes du Compte</h1>
     </div>
 </body>
 </html>
