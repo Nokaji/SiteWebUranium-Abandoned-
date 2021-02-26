@@ -3,5 +3,50 @@
 }
 
 .bar-profile{
-    background-color: #333333;
+    background-color: #202020;
+    border-radius: 10px;
+}
+
+.link-profile{
+    color: rgba(250, 250, 250, .7);
+    position: absolute;
+    left: 5%;
+    font-size: 125%;
+    transition: 0.3s ease;
+}
+
+.link-profile:hover{
+    box-shadow: -3px 0px 0px gray;
+    color: rgba(250, 250, 250, .75);
+}
+
+@media screen and (min-width: 1024px){
+    .bar-profile{
+        max-width: 25%;
+        position: relative;
+        left: 2.5%;
+        top: -50px;
+        height: 450px;
+        box-shadow: 2px 2px 0px black;
+        transition: 0.5s ease;
+    }
+
+    .title-bar{
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    .bar-profile:hover{
+        box-shadow: 0px 0px 0px black;
+    }
+
+    .btn-media{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .btn-media{
+        visibility: visible;
+    }
 }
